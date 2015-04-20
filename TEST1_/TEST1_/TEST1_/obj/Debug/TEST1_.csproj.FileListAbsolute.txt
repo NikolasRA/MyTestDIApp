@@ -1,0 +1,83 @@
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\TEST1_.exe.config
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\obj\Debug\Skins\MainSkin.baml
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\obj\Debug\App.g.cs
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\obj\Debug\TEST1__MarkupCompile.cache
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\obj\Debug\TEST1__MarkupCompile.lref
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\TEST1_.exe
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\TEST1_.pdb
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\TEST1_.exe.CodeAnalysisLog.xml
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\TEST1_.exe.lastcodeanalysissucceeded
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\EntityFramework.dll
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.dll
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\System.Windows.Interactivity.dll
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\EntityFramework.xml
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.pdb
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.xml
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\obj\Debug\App.baml
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\obj\Debug\TEST1_.g.resources
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\obj\Debug\TEST1_.Properties.Resources.resources
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\obj\Debug\TEST1_.csproj.GenerateResource.Cache
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\obj\Debug\TEST1_.exe
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\obj\Debug\TEST1_.pdb
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\Rubenhak.Common.WPF.dll
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\bin\Debug\Rubenhak.Common.WPF.pdb
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\obj\Debug\MainWindow.baml
+c:\users\chechuliki\documents\visual studio 2013\Projects\TEST1_\TEST1_\obj\Debug\MainWindow.g.cs
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\TEST1_.exe.config
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\obj\Debug\TEST1_.exe
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\obj\Debug\TEST1_.pdb
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\TEST1_.exe
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\TEST1_.pdb
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\TEST1_.exe.CodeAnalysisLog.xml
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\TEST1_.exe.lastcodeanalysissucceeded
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\EntityFramework.dll
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\Rubenhak.Common.WPF.dll
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\Rubenhak.Common.WPF.pdb
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\EntityFramework.xml
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\obj\Debug\TEST1_.csprojResolveAssemblyReference.cache
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\obj\Debug\MainWindow.baml
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\obj\Debug\Skins\MainSkin.baml
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\obj\Debug\MainWindow.g.cs
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\obj\Debug\App.g.cs
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\obj\Debug\TEST1__MarkupCompile.cache
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\obj\Debug\TEST1__MarkupCompile.lref
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\obj\Debug\App.baml
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\obj\Debug\TEST1_.g.resources
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\obj\Debug\TEST1_.Properties.Resources.resources
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\obj\Debug\TEST1_.csproj.GenerateResource.Cache
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\Ninject.dll
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\Ninject.xml
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\Ninject.Web.Mvc.dll
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\WebActivatorEx.dll
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Chechuliki\Desktop\TEST1_\TEST1_\TEST1_\bin\Debug\Ninject.Web.Mvc.xml
