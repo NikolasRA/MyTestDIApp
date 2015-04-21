@@ -1,9 +1,0 @@
-C:\Users\Chechuliki\Downloads\src_WPF_Maskable_TextBox\WPF_Maskable_TextBox\Rubenhak.Common.WPF\bin\Debug\Rubenhak.Common.WPF.dll
-C:\Users\Chechuliki\Downloads\src_WPF_Maskable_TextBox\WPF_Maskable_TextBox\Rubenhak.Common.WPF\bin\Debug\Rubenhak.Common.WPF.pdb
-C:\Users\Chechuliki\Downloads\src_WPF_Maskable_TextBox\WPF_Maskable_TextBox\Rubenhak.Common.WPF\obj\Debug\Rubenhak.Common.WPF.dll
-C:\Users\Chechuliki\Downloads\src_WPF_Maskable_TextBox\WPF_Maskable_TextBox\Rubenhak.Common.WPF\obj\Debug\Rubenhak.Common.WPF.pdb
-C:\Users\Chechuliki\Documents\Visual Studio 2013\Projects\TEST1_\Rubenhak.Common.WPF\bin\Debug\Rubenhak.Common.WPF.dll
-C:\Users\Chechuliki\Documents\Visual Studio 2013\Projects\TEST1_\Rubenhak.Common.WPF\bin\Debug\Rubenhak.Common.WPF.pdb
-C:\Users\Chechuliki\Documents\Visual Studio 2013\Projects\TEST1_\Rubenhak.Common.WPF\obj\Debug\Rubenhak.Common.WPF.csprojResolveAssemblyReference.cache
-C:\Users\Chechuliki\Documents\Visual Studio 2013\Projects\TEST1_\Rubenhak.Common.WPF\obj\Debug\Rubenhak.Common.WPF.dll
-C:\Users\Chechuliki\Documents\Visual Studio 2013\Projects\TEST1_\Rubenhak.Common.WPF\obj\Debug\Rubenhak.Common.WPF.pdb

@@ -1,4 +1,0 @@
-C:\Users\Chechuliki\Documents\Мои документы\Projects\Inventar_V_2\Rubenhak.Common.WPF\bin\Release\Rubenhak.Common.WPF.dll
-C:\Users\Chechuliki\Documents\Мои документы\Projects\Inventar_V_2\Rubenhak.Common.WPF\bin\Release\Rubenhak.Common.WPF.pdb
-C:\Users\Chechuliki\Documents\Мои документы\Projects\Inventar_V_2\Rubenhak.Common.WPF\obj\Release\Rubenhak.Common.WPF.dll
-C:\Users\Chechuliki\Documents\Мои документы\Projects\Inventar_V_2\Rubenhak.Common.WPF\obj\Release\Rubenhak.Common.WPF.pdb
