@@ -1,4 +1,4 @@
-namespace MvvmLightTest.Data
+namespace MvvmLightTest.Common.Data
 {
     public interface IEntity
     {

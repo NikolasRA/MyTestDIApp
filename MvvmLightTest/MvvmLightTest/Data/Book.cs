@@ -1,3 +1,5 @@
+using MvvmLightTest.Common.Data;
+
 namespace MvvmLightTest.Data
 {
     public class Book : IEntity

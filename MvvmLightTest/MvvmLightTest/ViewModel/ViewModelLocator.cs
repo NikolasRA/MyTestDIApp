@@ -2,6 +2,7 @@
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
 using Microsoft.Practices.ServiceLocation;
+using MvvmLightTest.Common.Data;
 using MvvmLightTest.Data;
 using MvvmLightTest.DataAccess;
 using MvvmLightTest.Model;
@@ -21,7 +22,7 @@ namespace MvvmLightTest.ViewModel
             else
             {
                 SimpleIoc.Default.Register<DbContext, BooksDbContext>();
-                SimpleIoc.Default.Register<IRepository, RepositoryService<Book>>();
+                SimpleIoc.Default.Register<IRepository<Book>, Repository<Book>>();
                 SimpleIoc.Default.Register<IDataService, DataService<RepoBook>>();
             }
 

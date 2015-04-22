@@ -86,14 +86,14 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Data\Book.cs" />
-    <Compile Include="Data\IEntity.cs" />
+    <Compile Include="Common\Data\IEntity.cs" />
     <Compile Include="DataAccess\BooksDbContext.cs" />
     <Compile Include="Services\DataBooks.cs" />
     <Compile Include="Services\RepoBook.cs" />
     <Compile Include="Services\DataService.cs" />
     <Compile Include="Services\IDataService.cs" />
-    <Compile Include="Services\RepositoryService.cs" />
-    <Compile Include="Services\IRepository.cs" />
+    <Compile Include="DataAccess\Repository.cs" />
+    <Compile Include="Common\Data\IRepository.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewBooks.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
