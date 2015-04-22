@@ -85,8 +85,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Model\DATABASE\Books.cs" />
-    <Compile Include="Model\DATABASE\DB.cs" />
+    <Compile Include="Data\Book.cs" />
+    <Compile Include="Data\IEntity.cs" />
+    <Compile Include="DataAccess\BooksDbContext.cs" />
     <Compile Include="Services\DataBooks.cs" />
     <Compile Include="Services\RepoBook.cs" />
     <Compile Include="Services\DataService.cs" />
@@ -146,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Design\" />
+    <Folder Include="Model\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
