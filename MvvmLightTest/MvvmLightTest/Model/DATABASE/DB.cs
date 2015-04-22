@@ -1,6 +1,6 @@
 using System.Data.Entity;
 
-namespace MvvmLightTest
+namespace MvvmLightTest.Model.DATABASE
 {
     public class DB : DbContext
     {

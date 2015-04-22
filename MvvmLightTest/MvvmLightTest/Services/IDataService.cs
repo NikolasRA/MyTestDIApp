@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Data.Entity;
-using MvvmLightTest.ViewModel.Repository;
-using MvvmLightTest.ViewModel.Services;
+using MvvmLightTest.Services;
 
 namespace MvvmLightTest.Model
 {

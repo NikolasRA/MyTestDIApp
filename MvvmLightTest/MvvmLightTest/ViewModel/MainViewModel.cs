@@ -1,36 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Data.Entity;
-using System.Windows;
+﻿using System.Collections.ObjectModel;
 using System.Windows.Input;
 using AutoMapper;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.CommandWpf;
-using GalaSoft.MvvmLight.Ioc;
-using GalaSoft.MvvmLight.Messaging;
-using Microsoft.Practices.ServiceLocation;
 using MvvmLightTest.Model;
-using MvvmLightTest.ViewModel.Repository;
-using MvvmLightTest.ViewModel.Services;
+using MvvmLightTest.Services;
 
 namespace MvvmLightTest.ViewModel
 {
-    /// <summary>
-    ///     This class contains properties that the main View can data bind to.
-    ///     <para>
-    ///         See http://www.galasoft.ch/mvvm
-    ///     </para>
-    /// </summary>
-    public class MainViewModel: ViewModelBase
+    public class MainViewModel : ViewModelBase
     {
 
         #region DataFields
 
-        
 
-       private IDataService _dataService;
-       
+
+        private IDataService _dataService;
+
 
         /// <summary>
         /// Type to make some actions with books
@@ -42,27 +28,23 @@ namespace MvvmLightTest.ViewModel
         /// </summary>
         private int _index;
 
-  
+
         #endregion
 
-
-        /// <summary>
-        ///     Initializes a new instance of the MainViewModel class. Initializes DataFields
-        /// </summary>
         public MainViewModel(IDataService dataService)
         {
             Mapper.CreateMap<DataBooks, ViewBooks>().ReverseMap();
-           
+
             _book = new ViewBooks();
-            
+
             Books = new ObservableCollection<ViewBooks>();
-          
+
             foreach (var book in dataService.GetBooks())
             {
                 //Null reference Exception!
-               Books.Add(_dataService.Set<ViewBooks>(book));
+                Books.Add(_dataService.Set<ViewBooks>(book));
             }
-            
+
             _index = 0;
             _dataService = dataService;
 
@@ -73,7 +55,7 @@ namespace MvvmLightTest.ViewModel
                 Books.Add(add);
                 var toService = _dataService.Reverse(add);
                 _dataService.AddBook(toService);
-                add.ID = toService.ID;
+                add.Id = toService.Id;
 
             });
             Remove = new RelayCommand(() =>
@@ -93,27 +75,17 @@ namespace MvvmLightTest.ViewModel
                 _dataService.ModifyBook(Mapper.Map<DataBooks>(Books[Index]));
 
             });
-
-           
         }
-
 
         #region Commands
 
-        /// <summary>
-        /// Commands to run
-        /// </summary>
         public ICommand Add { get; private set; }
-
 
         public ICommand Remove { get; private set; }
 
-
         public ICommand Modify { get; private set; }
 
-
         #endregion
-
 
         private ViewBooks GetClone(ViewBooks book)
         {
@@ -128,15 +100,8 @@ namespace MvvmLightTest.ViewModel
 
         #region BindindData
 
-        /// <summary>
-        /// Collection to display content
-        /// </summary>
-        public ObservableCollection<ViewBooks> Books{ get; set; }
-           
+        public ObservableCollection<ViewBooks> Books { get; set; }
 
-        /// <summary>
-        /// To make some actions with books
-        /// </summary>
         public ViewBooks Book
         {
             get { return _book; }
@@ -147,10 +112,6 @@ namespace MvvmLightTest.ViewModel
             }
         }
 
-
-        /// <summary>
-        /// Selected index from the ListView
-        /// </summary>
         public int Index
         {
             get { return _index; }
@@ -160,13 +121,12 @@ namespace MvvmLightTest.ViewModel
                 _index = value;
                 if (_index < Books.Count && _index >= 0)
                 {
-                    //        Book = new Books(Books[_index]);
                     Book = GetClone(Books[Index]);
                 }
                 RaisePropertyChanged(() => Index);
-
             }
         }
+
         #endregion
     }
 }

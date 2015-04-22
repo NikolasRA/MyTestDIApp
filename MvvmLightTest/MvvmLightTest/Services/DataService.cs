@@ -1,51 +1,40 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
-using System.Linq;
+﻿using System.Collections.Generic;
 using AutoMapper;
-using MvvmLightTest.ViewModel.Repository;
-using MvvmLightTest.ViewModel.Services;
+using MvvmLightTest.Model;
 
-namespace MvvmLightTest.Model
+namespace MvvmLightTest.Services
 {
-    public class DataService<TEntity>:IDataService where TEntity : RepoBook
+    public class DataService<TEntity> : IDataService where TEntity : RepoBook
     {
-        private IRepository _repository;
+        private readonly IRepository _repository;
 
         public DataService(IRepository repository)
         {
             _repository = repository;
             Mapper.CreateMap<List<DataBooks>, List<TEntity>>();
             Mapper.CreateMap<TEntity, DataBooks>().ReverseMap();
-          
         }
 
         public DataBooks Reverse<T>(T value)
         {
-           return Mapper.DynamicMap<T, DataBooks>(value);
+            return Mapper.DynamicMap<T, DataBooks>(value);
         }
 
-        public T Set<T>(DataBooks source) where T:class, new()
+        public T Set<T>(DataBooks source) where T : class, new()
         {
-          T item = new T();
-            item =  Mapper.Map<DataBooks,T>(source);
-            return item;
+            return Mapper.Map<DataBooks, T>(source);
         }
-
 
         public List<DataBooks> GetBooks()
         {
-            return Mapper.Map<List<DataBooks>>(_repository.GetBooks()); //Mapper.Map<ObservableCollection<ViewBooks>>(_repository.GetBooks());
+            return Mapper.Map<List<DataBooks>>(_repository.GetBooks());
         }
-
 
         public void AddBook(DataBooks book)
         {
             var b = Mapper.Map<TEntity>(book);
-           _repository.AddBook(b);
-            book.ID = b.ID;
+            _repository.AddBook(b);
+            book.Id = b.Id;
         }
 
         public DataBooks GetById(object Id)
@@ -63,8 +52,7 @@ namespace MvvmLightTest.Model
             var b = Mapper.Map<TEntity>(book);
             _repository.RemoveBook(b);
             _repository.AddBook(b);
-            book.ID = b.ID;
+            book.Id = b.Id;
         }
-
     }
 }

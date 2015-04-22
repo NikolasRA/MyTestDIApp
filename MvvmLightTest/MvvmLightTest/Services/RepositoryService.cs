@@ -1,68 +1,47 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.Generic;
 using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
 using System.Linq;
-using System.Windows.Documents;
 using AutoMapper;
-using MvvmLightTest.ViewModel.Repository;
-using MvvmLightTest.ViewModel.Services;
 
-namespace MvvmLightTest.Model
+namespace MvvmLightTest.Services
 {
-    public class RepositoryService<TEntity>:IRepository  where TEntity : class
+    public class RepositoryService<TEntity> : IRepository where TEntity : class
     {
-       
-        private DbContext _dataBase;
-
+        private readonly DbContext _dataBase;
 
         public RepositoryService(DbContext dataBase)
         {
             _dataBase = dataBase;
             Mapper.CreateMap<TEntity, RepoBook>().ReverseMap();
-          
         }
-
 
         private IDbSet<TEntity> Entities
         {
             get { return _dataBase.Set<TEntity>(); }
         }
 
-
         public List<RepoBook> GetBooks()
         {
-           List<RepoBook> list = new List<RepoBook>();
-
-            foreach (var item in Entities.AsQueryable())
-            {
-                list.Add(Mapper.Map<RepoBook>(item));                
-            }
-            return list;
+            return Entities.AsQueryable().Select(item => Mapper.Map<RepoBook>(item)).ToList();
         }
-
 
         public void AddBook(RepoBook book)
         {
             var b = Mapper.Map<TEntity>(book);
             Entities.Add(b);
-           _dataBase.SaveChanges();
-            book.ID = Mapper.Map<RepoBook>(b).ID;
+            _dataBase.SaveChanges();
+            book.Id = Mapper.Map<RepoBook>(b).Id;
         }
 
-       
-        public RepoBook GetById(object Id)
+        public RepoBook GetById(object id)
         {
-            return Mapper.Map<RepoBook>(Entities.Find(Id));
+            return Mapper.Map<RepoBook>(Entities.Find(id));
         }
 
         public void RemoveBook(RepoBook book)
         {
-            Entities.Remove(Entities.Find(book.ID));
+            Entities.Remove(Entities.Find(book.Id));
             _dataBase.SaveChanges();
         }
-
-       
     }
 }

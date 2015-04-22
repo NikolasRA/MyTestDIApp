@@ -11,8 +11,7 @@
         MinHeight="300"
         MaxWidth="490.444"
         MaxHeight="300"
-        DataContext="{Binding Main,
-                              Source={StaticResource Locator}}"
+        DataContext="{Binding Main, Source={StaticResource Locator}}"
         mc:Ignorable="d ignore">
 
     <Window.Resources>
@@ -69,8 +68,8 @@
             <ListView.View>
                 <GridView>
                     <GridViewColumn Width="50"
-                                    DisplayMemberBinding="{Binding ID}"
-                                    Header="ID" />
+                                    DisplayMemberBinding="{Binding Id}"
+                                    Header="Id" />
                     <GridViewColumn Width="120"
                                     DisplayMemberBinding="{Binding Author}"
                                     Header="Author" />
