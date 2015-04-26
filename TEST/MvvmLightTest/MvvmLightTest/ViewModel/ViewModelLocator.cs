@@ -42,7 +42,7 @@ namespace MvvmLightTest.ViewModel
             {
                 SimpleIoc.Default.Register<DbContext,DBContext>();
                 SimpleIoc.Default.Register<IRepository<BookEntity>,Repository<BookEntity>>();
-                SimpleIoc.Default.Register<IDataService, DataService<BookEntity>>();
+                SimpleIoc.Default.Register<IDataService, DataService>();
             }
 
             SimpleIoc.Default.Register<MainViewModel>();
